@@ -562,3 +562,10 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[main e08fbc7] Initial Commit
+ 5 files changed, 65 insertions(+)
+To https://github.com/mclin671/SparkSQL_Olympics.git
+ + 3edaede...e08fbc7 main -> main (forced update)
+2022-09-27T15:48:36.399+0000: [GC (System.gc()) [PSYoungGen: 179690K->9918K(2276864K)] 407357K->237584K(7228928K), 0.0204268 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2022-09-27T15:48:36.420+0000: [Full GC (System.gc()) [PSYoungGen: 9918K->0K(2276864K)] [ParOldGen: 227666K->229781K(4952064K)] 237584K->229781K(7228928K), [Metaspace: 278043K->278004K(1331200K)], 0.8871643 secs] [Times: user=1.46 sys=0.00, real=0.89 secs] 
+Reinitialized existing Git repository in /databricks/driver/.git/
