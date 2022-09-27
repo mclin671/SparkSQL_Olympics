@@ -384,3 +384,17 @@ usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
     --add                 add URL
     --delete              delete URLs
 
+[master 617f572] Initial Commit
+ 5 files changed, 116 insertions(+)
+error: src refspec main does not match any
+error: failed to push some refs to 'https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git'
+Reinitialized existing Git repository in /databricks/driver/.git/
+fatal: remote origin already exists.
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
