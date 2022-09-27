@@ -168,3 +168,29 @@ os.getcwd()
 22/09/27 15:25:52 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7580027164105238378_1e23d60b1cb84f009ca28ce5437cf091
 22/09/27 15:25:52 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_7580027164105238378_1e23d60b1cb84f009ca28ce5437cf091
 22/09/27 15:26:34 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5472614191444891990_a3cb5f666bd94b56bc3ab7f1666483c9
+22/09/27 15:26:34 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5472614191444891990_a3cb5f666bd94b56bc3ab7f1666483c9
+22/09/27 15:27:02 INFO ProgressReporter$: Added result fetcher for 5175765424428302319_6003786585233199269_b6f01646-b1e8-4e67-b006-4007fc5f8a46
+22/09/27 15:27:02 INFO ProgressReporter$: Removed result fetcher for 5175765424428302319_6003786585233199269_b6f01646-b1e8-4e67-b006-4007fc5f8a46
+22/09/27 15:27:05 INFO ProgressReporter$: Added result fetcher for 6466316087552881366_6131379304879395578_70836fdb-4085-4976-8aa6-38b8a551f972
+22/09/27 15:27:05 WARN SimpleFunctionRegistry: The function getargument replaced a previously registered function.
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Added query with execution ID:101. Current active queries:1
+22/09/27 15:27:05 INFO HiveMetaStore: 0: get_databases: *
+22/09/27 15:27:05 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_databases: *	
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Removed query with execution ID:101. Current active queries:0
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Added query with execution ID:102. Current active queries:1
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Removed query with execution ID:102. Current active queries:0
+22/09/27 15:27:05 INFO ProgressReporter$: Removed result fetcher for 6466316087552881366_6131379304879395578_70836fdb-4085-4976-8aa6-38b8a551f972
+22/09/27 15:27:05 INFO ProgressReporter$: Added result fetcher for 6466316087552881366_4834221513025860108_aec5c1a6-7c61-4a93-9b63-a7357e405b29
+22/09/27 15:27:05 WARN SimpleFunctionRegistry: The function getargument replaced a previously registered function.
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Added query with execution ID:103. Current active queries:1
+22/09/27 15:27:05 INFO HiveMetaStore: 0: get_database: default
+22/09/27 15:27:05 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:27:05 INFO HiveMetaStore: 0: get_database: default
+22/09/27 15:27:05 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:27:05 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+22/09/27 15:27:05 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Removed query with execution ID:103. Current active queries:0
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Added query with execution ID:104. Current active queries:1
+22/09/27 15:27:05 INFO ClusterLoadMonitor: Removed query with execution ID:104. Current active queries:0
+22/09/27 15:27:05 INFO ProgressReporter$: Removed result fetcher for 6466316087552881366_4834221513025860108_aec5c1a6-7c61-4a93-9b63-a7357e405b29
+22/09/27 15:27:31 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6757233931003169073_e525b11411f04a689e3932f302abd62e

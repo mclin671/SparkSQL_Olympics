@@ -423,3 +423,10 @@ remote: Please see https://docs.github.com/en/get-started/getting-started-with-g
 fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
 Reinitialized existing Git repository in /databricks/driver/.git/
 fatal: remote origin already exists.
+[main 71b0e3a] Initial Commit
+ 6 files changed, 302 insertions(+)
+error: src refspec master does not match any
+error: failed to push some refs to 'https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git'
+True
+Reinitialized existing Git repository in /databricks/driver/.git/
+fatal: remote origin already exists.
