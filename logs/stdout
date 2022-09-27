@@ -298,3 +298,7 @@ Reinitialized existing Git repository in /databricks/driver/.git/
 fatal: could not read Username for 'https://github.com': No such device or address
 Reinitialized existing Git repository in /databricks/driver/.git/
 fatal: remote origin already exists.
+[master d41abf8] Initial Commit
+ 6 files changed, 123 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
+Reinitialized existing Git repository in /databricks/driver/.git/
