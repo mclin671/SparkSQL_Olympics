@@ -328,3 +328,19 @@ usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
     --add                 add URL
     --delete              delete URLs
 
+[master 452db06] Initial Commit
+ 5 files changed, 89 insertions(+)
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
+2022-09-27T15:18:36.399+0000: [GC (System.gc()) [PSYoungGen: 117344K->6506K(2260480K)] 352999K->242160K(7212544K), 0.0167602 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2022-09-27T15:18:36.416+0000: [Full GC (System.gc()) [PSYoungGen: 6506K->0K(2260480K)] [ParOldGen: 235654K->227666K(4952064K)] 242160K->227666K(7212544K), [Metaspace: 279617K->277831K(1331200K)], 0.8830823 secs] [Times: user=1.45 sys=0.00, real=0.88 secs] 
+Reinitialized existing Git repository in /databricks/driver/.git/
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
