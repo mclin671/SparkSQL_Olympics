@@ -194,3 +194,5 @@ os.getcwd()
 22/09/27 15:27:05 INFO ClusterLoadMonitor: Removed query with execution ID:104. Current active queries:0
 22/09/27 15:27:05 INFO ProgressReporter$: Removed result fetcher for 6466316087552881366_4834221513025860108_aec5c1a6-7c61-4a93-9b63-a7357e405b29
 22/09/27 15:27:31 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6757233931003169073_e525b11411f04a689e3932f302abd62e
+22/09/27 15:27:32 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6757233931003169073_e525b11411f04a689e3932f302abd62e
+22/09/27 15:27:50 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5498148185431908228_f68f0acd51a44f7ca4c2df6286b71adc

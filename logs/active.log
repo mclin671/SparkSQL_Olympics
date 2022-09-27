@@ -1823,3 +1823,50 @@ finally:
 try:
     def ____databricks_percent_sh():
     ... 1619342073169445481)
+22/09/27 15:27:50 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGluaXQKZ2l0IGNvbmZpZyAtLWdsb2JhbCB1c2VyLmVtYWlsICJsaW4ubWljaGVsbGUyQGdtYWlsLmNvbSIgCmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5uYW1lICJtY2xpbjY3MSIKZ2l0IGJyYW5jaCAtTSBtYWluCmdpdCByZW1vdGUgYWRkIG9yaWdpbiBodHRwczovL2dpdGh1Yi5jb20vbWNsaW42NzEvU3BhcmtTUUxfT2x5bXBpY3MuZ2l0CmdpdCBhZGQgLiAKZ2l0IGNvbW1pdCAtbSAnSW5pdGlhbCBDb21taXQnCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_5498148185431908228_f68f0acd51a44f7ca4c2df6286b71adc)
+22/09/27 15:27:50 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGluaXQKZ2l0IGNvbmZpZyAtLWdsb2JhbCB1c2VyLmVtYWlsICJsaW4ubWljaGVsbGUyQGdtYWlsLmNvbSIgCmdpdCBjb25maWcgLS1nbG9iYWwgdXNlci5uYW1lICJtY2xpbjY3MSIKZ2l0IGJyYW5jaCAtTSBtYWluCmdpdCByZW1vdGUgYWRkIG9yaWdpbiBodHRwczovL2dpdGh1Yi5jb20vbWNsaW42NzEvU3BhcmtTUUxfT2x5bXBpY3MuZ2l0CmdpdCBhZGQgLiAKZ2l0IGNvbW1pdCAtbSAnSW5pdGlhbCBDb21taXQnCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_5498148185431908228_f68f0acd51a44f7ca4c2df6286b71adc Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
