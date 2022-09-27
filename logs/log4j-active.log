@@ -212,3 +212,7 @@ os.getcwd()
 22/09/27 15:38:48 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
 22/09/27 15:38:48 INFO DriverCorral: Metastore health check ok
 22/09/27 15:38:49 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8403418234727230400_f6f6ecf883a1485b98f3a2eb137428ef
+22/09/27 15:38:50 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_8403418234727230400_f6f6ecf883a1485b98f3a2eb137428ef
+22/09/27 15:39:22 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5492235084075790646_c62bdb7532574114a7f5ae1f132542af
+22/09/27 15:39:23 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5492235084075790646_c62bdb7532574114a7f5ae1f132542af
+22/09/27 15:39:26 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5086044126534518020_d8537207ed26432aaa66c35818f5802b
