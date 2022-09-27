@@ -89,3 +89,9 @@ os.getcwd()
 22/09/27 15:13:31 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_4890739171300470580_c0c05f552dae4d348c44c089a39b07d4
 22/09/27 15:13:31 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_4890739171300470580_c0c05f552dae4d348c44c089a39b07d4
 22/09/27 15:13:45 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7947488643813050022_d54b8ed7999c470a9035a39e519c6763
+22/09/27 15:13:45 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_7947488643813050022_d54b8ed7999c470a9035a39e519c6763
+22/09/27 15:13:48 INFO DriverCorral: DBFS health check ok
+22/09/27 15:13:48 INFO HiveMetaStore: 2: get_database: default
+22/09/27 15:13:48 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:13:48 INFO DriverCorral: Metastore health check ok
+22/09/27 15:13:56 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7800897596374705325_a3d6244e167f4fcb959b84efe8ced474

@@ -302,3 +302,7 @@ fatal: remote origin already exists.
  6 files changed, 123 insertions(+)
 fatal: could not read Username for 'https://github.com': No such device or address
 Reinitialized existing Git repository in /databricks/driver/.git/
+[master f0725a3] Initial Commit
+ 5 files changed, 60 insertions(+)
+fatal: unable to access 'https://github.com/{mclin671}/SparkSQL_Olympics.git/': The requested URL returned error: 400
+Reinitialized existing Git repository in /databricks/driver/.git/
