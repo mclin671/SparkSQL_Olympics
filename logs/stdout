@@ -473,3 +473,14 @@ remote: Please see https://docs.github.com/en/get-started/getting-started-with-g
 fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
 Reinitialized existing Git repository in /databricks/driver/.git/
 fatal: remote origin already exists.
+[main fb512c9] Initial Commit
+ 9 files changed, 63 insertions(+)
+ delete mode 100644 ganglia/snapshot-2022-09-27T13:45:01.605Z.png
+ delete mode 100644 ganglia/snapshot-2022-09-27T14:00:01.656Z.png
+ delete mode 100644 ganglia/snapshot-2022-09-27T14:15:01.725Z.png
+ delete mode 100644 ganglia/snapshot-2022-09-27T14:30:01.777Z.png
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
+Reinitialized existing Git repository in /databricks/driver/.git/
+fatal: remote origin already exists.
