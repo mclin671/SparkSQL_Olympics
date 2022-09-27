@@ -293,3 +293,8 @@ Reinitialized existing Git repository in /databricks/driver/.git/
  create mode 100755 preload_class.lst
 fatal: could not read Username for 'https://github.com': No such device or address
 Reinitialized existing Git repository in /databricks/driver/.git/
+[master d0194d2] Initial Commit
+ 5 files changed, 303 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
+Reinitialized existing Git repository in /databricks/driver/.git/
+fatal: remote origin already exists.
