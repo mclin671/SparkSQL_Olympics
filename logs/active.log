@@ -2843,3 +2843,50 @@ finally:
 try:
     def ____databricks_percent_sh():
     ... 1619342073169445481)
+22/09/27 15:47:45 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCAuIApnaXQgY29tbWl0IC1tICJJbml0aWFsIENvbW1pdCIKZ2l0IHB1c2ggLWYgb3JpZ2luIG1haW4=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8354140137975004574_67038c10c2a241a6b1f14a9976d7618c)
+22/09/27 15:47:45 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCAuIApnaXQgY29tbWl0IC1tICJJbml0aWFsIENvbW1pdCIKZ2l0IHB1c2ggLWYgb3JpZ2luIG1haW4=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8354140137975004574_67038c10c2a241a6b1f14a9976d7618c Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)

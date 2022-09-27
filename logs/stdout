@@ -553,3 +553,12 @@ From https://github.com/mclin671/SparkSQL_Olympics
  * branch            main       -> FETCH_HEAD
  * [new branch]      main       -> origin/main
 fatal: refusing to merge unrelated histories
+[main 0f4e96f] Initial Commit
+ 5 files changed, 206 insertions(+)
+To https://github.com/mclin671/SparkSQL_Olympics.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://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@github.com/mclin671/SparkSQL_Olympics.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
