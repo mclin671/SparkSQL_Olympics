@@ -344,3 +344,27 @@ usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
     --add                 add URL
     --delete              delete URLs
 
+[master f6a5aeb] Initial Commit
+ 6 files changed, 217 insertions(+)
+error: src refspec branchname does not match any
+error: failed to push some refs to 'https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git'
+NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing /tmp/ipykernel-connection-ReplId-47d40-33b2b-cc3fe-f.json
+True
+Reinitialized existing Git repository in /databricks/driver/.git/
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+

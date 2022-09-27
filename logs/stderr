@@ -1,0 +1,5 @@
+Tue Sep 27 15:20:16 2022 Connection to spark from PID  4319
+Tue Sep 27 15:20:16 2022 Initialized gateway on port 43877
+Tue Sep 27 15:20:17 2022 Connected to spark.
+[IPKernelApp] WARNING | Config option `capture_fd_output` not recognized by `IPKernelApp`.
+[IPKernelApp] WARNING | Config option `capture_fd_output` not recognized by `IPKernelApp`.

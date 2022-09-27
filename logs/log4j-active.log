@@ -105,3 +105,46 @@ os.getcwd()
 22/09/27 15:18:48 INFO DriverCorral: Metastore health check ok
 22/09/27 15:18:48 INFO DriverCorral: DBFS health check ok
 22/09/27 15:19:48 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6738368177701212078_66a2e48b75404882802d1589bd2b7a94
+22/09/27 15:19:49 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6738368177701212078_66a2e48b75404882802d1589bd2b7a94
+22/09/27 15:20:15 WARN SQLConf: The SQL config 'spark.sql.hive.convertCTAS' has been deprecated in Spark v3.1 and may be removed in the future. Set 'spark.sql.legacy.createHiveTableByDefault' to false instead.
+22/09/27 15:20:15 WARN SQLConf: The SQL config 'spark.sql.hive.convertCTAS' has been deprecated in Spark v3.1 and may be removed in the future. Set 'spark.sql.legacy.createHiveTableByDefault' to false instead.
+22/09/27 15:20:15 INFO DriverCorral: Starting python repl ReplId-47d40-33b2b-cc3fe-f
+22/09/27 15:20:15 INFO JupyterDriverLocal: Starting gateway server for repl ReplId-47d40-33b2b-cc3fe-f
+22/09/27 15:20:15 INFO PythonPy4JUtil: Using default multithreaded mode in Py4J
+22/09/27 15:20:16 INFO IpykernelUtils$: Python process builder: [/databricks/spark/python/pyspark/wrapped_python.py, root, /databricks/python/bin/python, /databricks/python_shell/scripts/db_ipykernel_launcher.py, -f, /tmp/ipykernel-connection-ReplId-47d40-33b2b-cc3fe-f.json]
+22/09/27 15:20:17 INFO ProgressReporter$: Added result fetcher for 6466316087552881366_5115637820012566319_27059a1f-5cb5-473a-90ff-a36fc79e46bf
+22/09/27 15:20:18 WARN SimpleFunctionRegistry: The function getargument replaced a previously registered function.
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Added query with execution ID:97. Current active queries:1
+22/09/27 15:20:18 INFO HiveMetaStore: 0: get_databases: *
+22/09/27 15:20:18 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_databases: *	
+22/09/27 15:20:18 INFO DBCEventLoggingListener: Rolling event log; numTimesRolledOver = 3
+22/09/27 15:20:18 INFO DBCEventLoggingListener: Rolled active log file /databricks/driver/eventlogs/4888391838058116525/eventlog to /databricks/driver/eventlogs/4888391838058116525/eventlog-2022-09-27--15-00
+22/09/27 15:20:18 INFO DBCEventLoggingListener: Logging events to eventlogs/4888391838058116525/eventlog
+22/09/27 15:20:18 INFO DBCEventLoggingListener: Compressed rolled file /databricks/driver/eventlogs/4888391838058116525/eventlog-2022-09-27--15-00 to /databricks/driver/eventlogs/4888391838058116525/eventlog-2022-09-27--15-00.gz
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 88.882926 ms
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Removed query with execution ID:97. Current active queries:0
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Added query with execution ID:98. Current active queries:1
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 8.830763 ms
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Removed query with execution ID:98. Current active queries:0
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 28.139988 ms
+22/09/27 15:20:18 INFO ProgressReporter$: Removed result fetcher for 6466316087552881366_5115637820012566319_27059a1f-5cb5-473a-90ff-a36fc79e46bf
+22/09/27 15:20:18 INFO ProgressReporter$: Added result fetcher for 6466316087552881366_8171753625914403158_0c598fad-218e-4d1f-abaa-a0d76cfcac14
+22/09/27 15:20:18 WARN SimpleFunctionRegistry: The function getargument replaced a previously registered function.
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Added query with execution ID:99. Current active queries:1
+22/09/27 15:20:18 INFO HiveMetaStore: 0: get_database: default
+22/09/27 15:20:18 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:20:18 INFO HiveMetaStore: 0: get_database: default
+22/09/27 15:20:18 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:20:18 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+22/09/27 15:20:18 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 72.300623 ms
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Removed query with execution ID:99. Current active queries:0
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Added query with execution ID:100. Current active queries:1
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 7.681925 ms
+22/09/27 15:20:18 INFO ClusterLoadMonitor: Removed query with execution ID:100. Current active queries:0
+22/09/27 15:20:18 INFO CodeGenerator: Code generated in 30.17146 ms
+22/09/27 15:20:18 INFO ProgressReporter$: Removed result fetcher for 6466316087552881366_8171753625914403158_0c598fad-218e-4d1f-abaa-a0d76cfcac14
+22/09/27 15:20:19 INFO PythonDriverWrapper: setupRepl:ReplId-47d40-33b2b-cc3fe-f: finished to load
+22/09/27 15:20:19 INFO ProgressReporter$: Added result fetcher for 5175765424428302319_8650238289321263722_e424b38f-2998-4032-9b12-ec6d0381a699
+22/09/27 15:20:19 INFO ProgressReporter$: Removed result fetcher for 5175765424428302319_8650238289321263722_e424b38f-2998-4032-9b12-ec6d0381a699
+22/09/27 15:20:36 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7519624538032287684_2b8466e02910468f86fa9ccc4ef1fe7d
