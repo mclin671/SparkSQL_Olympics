@@ -160,3 +160,11 @@ os.getcwd()
 22/09/27 15:23:48 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
 22/09/27 15:23:48 INFO DriverCorral: Metastore health check ok
 22/09/27 15:23:55 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5967617851378042397_56e371ee2d2542cd86edc8667a4e654d
+22/09/27 15:23:55 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5967617851378042397_56e371ee2d2542cd86edc8667a4e654d
+22/09/27 15:25:31 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6647581548282827105_b64e30cf60a8470eab6cdfa69a52db6c
+22/09/27 15:25:31 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6647581548282827105_b64e30cf60a8470eab6cdfa69a52db6c
+22/09/27 15:25:41 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7095635032890744435_959ebdf4b20c4740b6a2241c8e38f546
+22/09/27 15:25:41 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_7095635032890744435_959ebdf4b20c4740b6a2241c8e38f546
+22/09/27 15:25:52 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7580027164105238378_1e23d60b1cb84f009ca28ce5437cf091
+22/09/27 15:25:52 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_7580027164105238378_1e23d60b1cb84f009ca28ce5437cf091
+22/09/27 15:26:34 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5472614191444891990_a3cb5f666bd94b56bc3ab7f1666483c9

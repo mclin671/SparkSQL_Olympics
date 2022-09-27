@@ -411,3 +411,15 @@ error: src refspec master does not match any
 error: failed to push some refs to 'https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git'
 Reinitialized existing Git repository in /databricks/driver/.git/
 fatal: remote origin already exists.
+[main a3995b7] Initial Commit
+ 5 files changed, 124 insertions(+)
+error: src refspec master does not match any
+error: failed to push some refs to 'https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git'
+origin	https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git (fetch)
+origin	https://{mclin671}:{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}@github.com/mclin671/SparkSQL_Olympics.git (push)
+* main
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
+Reinitialized existing Git repository in /databricks/driver/.git/
+fatal: remote origin already exists.
