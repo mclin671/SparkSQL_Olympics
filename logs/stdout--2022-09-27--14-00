@@ -1,0 +1,122 @@
+2022-09-27T13:05:39.884+0000: [GC (Allocation Failure) [PSYoungGen: 2155520K->39571K(2315776K)] 2312231K->196290K(7267840K), 0.0658467 secs] [Times: user=0.12 sys=0.00, real=0.06 secs] 
+NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing /tmp/ipykernel-connection-ReplId-16790-f0931-1c026-9.json
+2022-09-27T13:08:43.586+0000: [GC (Allocation Failure) [PSYoungGen: 2195091K->111619K(2306048K)] 2351810K->268347K(7258112K), 0.1078060 secs] [Times: user=0.19 sys=0.00, real=0.11 secs] 
+2022-09-27T13:09:21.645+0000: [GC (Allocation Failure) [PSYoungGen: 2250076K->130090K(2278912K)] 2406804K->286826K(7230976K), 0.1654434 secs] [Times: user=0.31 sys=0.01, real=0.16 secs] 
+2022-09-27T13:09:40.184+0000: [GC (Allocation Failure) [PSYoungGen: 2278442K->175091K(2250752K)] 2435178K->332394K(7202816K), 0.1884664 secs] [Times: user=0.30 sys=0.02, real=0.19 secs] 
+2022-09-27T13:10:50.310+0000: [GC (Allocation Failure) [PSYoungGen: 2250739K->152905K(2228736K)] 2408042K->310216K(7180800K), 0.3672985 secs] [Times: user=0.38 sys=0.00, real=0.37 secs] 
+2022-09-27T13:10:55.812+0000: [GC (Allocation Failure) [PSYoungGen: 2228553K->157383K(2242560K)] 2385864K->314702K(7194624K), 0.1251098 secs] [Times: user=0.24 sys=0.00, real=0.12 secs] 
+2022-09-27T13:11:09.768+0000: [GC (Allocation Failure) [PSYoungGen: 2187975K->193351K(2224128K)] 2345294K->350678K(7176192K), 0.1593317 secs] [Times: user=0.30 sys=0.00, real=0.16 secs] 
+2022-09-27T13:11:20.628+0000: [GC (Allocation Failure) [PSYoungGen: 2223943K->104590K(2243584K)] 2381270K->261925K(7195648K), 0.1103473 secs] [Times: user=0.19 sys=0.00, real=0.11 secs] 
+Tue Sep 27 13:11:30 UTC 2022 Starting R processing from BASH
+Tue Sep 27 13:11:30 UTC 2022 R script: /local_disk0/tmp/_rServeScript.r3712578206271179081resource.r
+Tue Sep 27 13:11:30 UTC 2022 Port number: 1101
+Tue Sep 27 13:11:30 UTC 2022 cgroup: None
+2022-09-27 13:11:30 R process started with pid 2552 
+-- running Rserve in this R session (pid=2552), 1 server(s) --
+(This session will block until Rserve is shut down)
+Spark package found in SPARK_HOME: /databricks/spark
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664284292791
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664284294432
+<pre style = 'font-size:10pt'>
+Attaching package: ‘SparkR’
+
+The following object is masked _by_ ‘.GlobalEnv’:
+
+    setLocalProperty
+
+The following objects are masked from ‘package:stats’:
+
+    cov, filter, lag, na.omit, predict, sd, var, window
+
+The following objects are masked from ‘package:base’:
+
+    as.data.frame, colnames, colnames&lt;-, drop, endsWith, intersect,
+    rank, rbind, sample, startsWith, subset, summary, transform, union
+</pre>
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664284297709
+<pre style = 'font-size:10pt'>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.6     ✔ dplyr   1.0.8
+✔ tidyr   1.2.0     ✔ stringr 1.4.0
+✔ readr   2.1.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::arrange()      masks SparkR::arrange()
+✖ dplyr::between()      masks SparkR::between()
+✖ dplyr::coalesce()     masks SparkR::coalesce()
+✖ dplyr::collect()      masks SparkR::collect()
+✖ dplyr::contains()     masks tidyr::contains(), SparkR::contains()
+✖ dplyr::count()        masks SparkR::count()
+✖ dplyr::cume_dist()    masks SparkR::cume_dist()
+✖ dplyr::dense_rank()   masks SparkR::dense_rank()
+✖ dplyr::desc()         masks SparkR::desc()
+✖ dplyr::distinct()     masks SparkR::distinct()
+✖ dplyr::explain()      masks SparkR::explain()
+✖ dplyr::expr()         masks ggplot2::expr(), SparkR::expr()
+✖ dplyr::filter()       masks SparkR::filter(), stats::filter()
+✖ dplyr::first()        masks SparkR::first()
+✖ purrr::flatten()      masks SparkR::flatten()
+✖ dplyr::group_by()     masks SparkR::group_by()
+✖ dplyr::lag()          masks SparkR::lag(), stats::lag()
+✖ dplyr::last()         masks SparkR::last()
+✖ dplyr::lead()         masks SparkR::lead()
+✖ dplyr::mutate()       masks SparkR::mutate()
+✖ dplyr::n()            masks SparkR::n()
+✖ dplyr::n_distinct()   masks SparkR::n_distinct()
+✖ purrr::negate()       masks SparkR::negate()
+✖ dplyr::ntile()        masks SparkR::ntile()
+✖ dplyr::percent_rank() masks SparkR::percent_rank()
+✖ dplyr::rename()       masks SparkR::rename()
+✖ dplyr::row_number()   masks SparkR::row_number()
+✖ dplyr::sample_frac()  masks SparkR::sample_frac()
+✖ dplyr::select()       masks SparkR::select()
+✖ dplyr::slice()        masks SparkR::slice()
+✖ dplyr::sql()          masks SparkR::sql()
+✖ dplyr::summarize()    masks SparkR::summarize()
+✖ purrr::when()         masks SparkR::when()
+`geom_smooth()` using formula 'y ~ x'</pre>
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664284297993
+<pre style = 'font-size:10pt'>
+Call:
+lm(formula = athlete_num ~ medal_num, data = athletedf)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5454.8  -356.3  -279.8    45.9  4665.2 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 389.3071    61.5901   6.321 1.16e-09 ***
+medal_num     4.3351     0.1136  38.147  &lt; 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 944.6 on 254 degrees of freedom
+Multiple R-squared:  0.8514,	Adjusted R-squared:  0.8508 
+F-statistic:  1455 on 1 and 254 DF,  p-value: &lt; 2.2e-16
+</pre>
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664284365911
+<pre style = 'font-size:10pt'></pre>
+2022-09-27T13:18:36.410+0000: [GC (System.gc()) [PSYoungGen: 1739279K->115137K(2231808K)] 1896615K->272480K(7183872K), 0.1105661 secs] [Times: user=0.20 sys=0.00, real=0.11 secs] 
+2022-09-27T13:18:36.520+0000: [Full GC (System.gc()) [PSYoungGen: 115137K->0K(2231808K)] [ParOldGen: 157343K->257579K(4952064K)] 272480K->257579K(7183872K), [Metaspace: 284170K->280873K(1331200K)], 1.0492318 secs] [Times: user=1.66 sys=0.04, real=1.05 secs] 
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664285329066
+<pre style = 'font-size:10pt'>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</pre>
+
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664285368651
+<pre style = 'font-size:10pt'></pre>
+2022-09-27T13:48:03.458+0000: [GC (Allocation Failure) [PSYoungGen: 1999360K->8259K(2241024K)] 2256939K->265839K(7193088K), 0.0239551 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2022-09-27T13:48:36.400+0000: [GC (System.gc()) [PSYoungGen: 74927K->7617K(2027008K)] 332507K->265197K(6979072K), 0.0193107 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2022-09-27T13:48:36.419+0000: [Full GC (System.gc()) [PSYoungGen: 7617K->0K(2027008K)] [ParOldGen: 257579K->243198K(4952064K)] 265197K->243198K(6979072K), [Metaspace: 281069K->281041K(1331200K)], 0.7319583 secs] [Times: user=1.22 sys=0.00, real=0.73 secs] 

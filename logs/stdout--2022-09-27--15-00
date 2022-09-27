@@ -1,0 +1,12 @@
+2022-09-27T14:18:11.248+0000: [GC (Allocation Failure) [PSYoungGen: 2019328K->8458K(2244096K)] 2262526K->251657K(7196160K), 0.0219795 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2022-09-27T14:18:36.399+0000: [GC (System.gc()) [PSYoungGen: 73240K->6990K(2244096K)] 316438K->250188K(7196160K), 0.0178771 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2022-09-27T14:18:36.417+0000: [Full GC (System.gc()) [PSYoungGen: 6990K->0K(2244096K)] [ParOldGen: 243198K->236741K(4952064K)] 250188K->236741K(7196160K), [Metaspace: 281361K->279443K(1331200K)], 1.0466608 secs] [Times: user=1.62 sys=0.00, real=1.05 secs] 
+2022-09-27T14:48:36.409+0000: [GC (System.gc()) [PSYoungGen: 1958651K->7113K(2249216K)] 2195393K->243855K(7201280K), 0.0214520 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2022-09-27T14:48:36.430+0000: [Full GC (System.gc()) [PSYoungGen: 7113K->0K(2249216K)] [ParOldGen: 236741K->235646K(4952064K)] 243855K->235646K(7201280K), [Metaspace: 279493K->279199K(1331200K)], 0.9753300 secs] [Times: user=1.66 sys=0.00, real=0.98 secs] 
+Error in parse(text = DATABRICKS_CURRENT_TEMP_CMD__) : 
+  <text>:2:5: unexpected symbol
+1: {
+2: git init
+       ^
+DATABRICKS_STDOUT_END-27fea730-80a5-46f4-b83e-b4def65976e1-1664290698225
+Initialized empty Git repository in /databricks/driver/.git/

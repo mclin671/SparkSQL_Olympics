@@ -1,0 +1,10 @@
+[2022/09/27 12:18:48:2442] N: ttyd 1.6.3 (libwebsockets 4.1.6-)
+[2022/09/27 12:18:48:2444] N: tty configuration:
+[2022/09/27 12:18:48:2444] N:   start command: bash /databricks/spark/scripts/ttyd/set_wsfs_credentials.sh
+[2022/09/27 12:18:48:2444] N:   close signal: SIGHUP (1)
+[2022/09/27 12:18:48:2444] N:   terminal type: xterm-256color
+[2022/09/27 12:18:48:2444] N:   temp file name prefix: /tmp/wsfsttyd
+[2022/09/27 12:18:48:2444] N: LWS: 4.1.6-, loglevel 7
+[2022/09/27 12:18:48:2444] N: NET SRV H1 WS IPV6-off
+[2022/09/27 12:18:48:2580] N:  Using foreign event loop...
+[2022/09/27 12:18:48:2581] N:  Listening on port: 7681

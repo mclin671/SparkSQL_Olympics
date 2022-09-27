@@ -1,0 +1,5 @@
+<pre style = 'font-size:10pt'>Error in parse(text = DATABRICKS_CURRENT_TEMP_CMD__): &lt;text&gt;:2:5: unexpected symbol
+1: {
+2: git init
+       ^
+</pre>

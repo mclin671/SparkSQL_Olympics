@@ -1,0 +1,58 @@
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+fatal: remote origin already exists.
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	azure/
+	conf/
+	eventlogs/
+	ganglia/
+	hadoop_accessed_config.lst
+	logs/
+	metastore_db/
+	preload_class.lst
+
+nothing added to commit but untracked files present (use "git add" to track)
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+/bin/bash: -c: line 0: syntax error near unexpected token `newline'
+/bin/bash: -c: line 0: `git add </Users/linmichelle2@gmail.com/Final Project>'
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+fatal: Invalid path '/Users': No such file or directory
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	azure/
+	conf/
+	eventlogs/
+	ganglia/
+	hadoop_accessed_config.lst
+	logs/
+	metastore_db/
+	preload_class.lst
+
+nothing added to commit but untracked files present (use "git add" to track)
+/bin/bash: -c: line 1: syntax error: unexpected end of file
+error: src refspec refs/heads/master does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+/bin/bash: -c: line 0: syntax error near unexpected token `newline'
+/bin/bash: -c: line 0: `git add </Users/linmichelle2@gmail.com/Final Project>'
+error: src refspec refs/heads/master does not match any
+error: failed to push some refs to 'https://github.com/mclin671/SparkSQL_Olympics.git'
+Reinitialized existing Git repository in /databricks/driver/.git/

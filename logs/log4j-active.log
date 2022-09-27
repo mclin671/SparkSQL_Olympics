@@ -1,0 +1,85 @@
+22/09/27 15:00:27 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8087567138506974152_4504cfc2546047b89564c98a8cda32e8
+22/09/27 15:00:27 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_8087567138506974152_4504cfc2546047b89564c98a8cda32e8
+22/09/27 15:00:51 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5604850948559491991_7d6ce5b576904ba783b70f17dd747815
+22/09/27 15:00:52 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5604850948559491991_7d6ce5b576904ba783b70f17dd747815
+22/09/27 15:01:23 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5442921878335392808_a60c18e24cc2458fbed98f16e99bf5ac
+22/09/27 15:01:23 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5442921878335392808_a60c18e24cc2458fbed98f16e99bf5ac
+22/09/27 15:01:35 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5228544056185419353_9a1a6ab618eb4db1aa0c49330317815d
+22/09/27 15:01:35 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5228544056185419353_9a1a6ab618eb4db1aa0c49330317815d
+22/09/27 15:03:48 INFO HiveMetaStore: 2: get_database: default
+22/09/27 15:03:48 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:03:48 INFO DriverCorral: Metastore health check ok
+22/09/27 15:03:48 INFO DriverCorral: DBFS health check ok
+22/09/27 15:06:34 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6352152856940599221_f5ebbec4912e4c6ea8185c2d4dea196e
+22/09/27 15:06:34 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6352152856940599221_f5ebbec4912e4c6ea8185c2d4dea196e
+22/09/27 15:06:47 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8210957363587951465_e6a8d0c25a964c79993d94f13e385ee2
+22/09/27 15:06:47 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_8210957363587951465_e6a8d0c25a964c79993d94f13e385ee2
+22/09/27 15:07:40 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8650763222142572502_d59bd7afc1b5499991c8953c052d195b
+22/09/27 15:07:40 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_8650763222142572502_d59bd7afc1b5499991c8953c052d195b
+22/09/27 15:07:50 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8925891599477507465_6c58e024b0ba46c6b634588498fe2a7f
+22/09/27 15:07:50 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_8925891599477507465_6c58e024b0ba46c6b634588498fe2a7f
+22/09/27 15:07:59 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_5099899733560531369_a0c04f37288b4e86bb196e9562720af3
+22/09/27 15:07:59 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_5099899733560531369_a0c04f37288b4e86bb196e9562720af3
+22/09/27 15:08:48 INFO DriverCorral: DBFS health check ok
+22/09/27 15:08:48 INFO HiveMetaStore: 2: get_database: default
+22/09/27 15:08:48 INFO audit: ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+22/09/27 15:08:48 INFO DriverCorral: Metastore health check ok
+22/09/27 15:08:55 INFO ProgressReporter$: Added result fetcher for 1386166807757509980_8995903683473764313_57628ba5e48745509fb55f31d0b2827f
+22/09/27 15:08:55 WARN SimpleFunctionRegistry: The function getargument replaced a previously registered function.
+22/09/27 15:08:55 ERROR SQLDriverLocal: Error in SQL query: os.getcwd()
+org.apache.spark.sql.catalyst.parser.ParseException: 
+mismatched input 'os' expecting {'(', 'APPLY', 'CONVERT', 'COPY', 'OPTIMIZE', 'RESTORE', 'ADD', 'ALTER', 'ANALYZE', 'CACHE', 'CLEAR', 'COMMENT', 'COMMIT', 'CREATE', 'DELETE', 'DESC', 'DESCRIBE', 'DFS', 'DROP', 'EXPLAIN', 'EXPORT', 'FROM', 'GRANT', 'IMPORT', 'INSERT', 'LIST', 'LOAD', 'LOCK', 'MAP', 'MERGE', 'MSCK', 'REDUCE', 'REFRESH', 'REPLACE', 'RESET', 'REVOKE', 'ROLLBACK', 'SELECT', 'SET', 'SHOW', 'START', 'SYNC', 'TABLE', 'TRUNCATE', 'UNCACHE', 'UNLOCK', 'UPDATE', 'USE', 'VALUES', 'WITH'}(line 1, pos 0)
+
+== SQL ==
+os.getcwd()
+^^^
+
+	at org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:298)
+	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:159)
+	at org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:88)
+	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:106)
+	at com.databricks.sql.parser.DatabricksSqlParser.$anonfun$parsePlan$1(DatabricksSqlParser.scala:77)
+	at com.databricks.sql.parser.DatabricksSqlParser.parse(DatabricksSqlParser.scala:97)
+	at com.databricks.sql.parser.DatabricksSqlParser.parsePlan(DatabricksSqlParser.scala:74)
+	at org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:801)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:80)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:151)
+	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:801)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:968)
+	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:798)
+	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:695)
+	at com.databricks.backend.daemon.driver.SQLDriverLocal.$anonfun$executeSql$1(SQLDriverLocal.scala:91)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at com.databricks.backend.daemon.driver.SQLDriverLocal.executeSql(SQLDriverLocal.scala:37)
+	at com.databricks.backend.daemon.driver.SQLDriverLocal.repl(SQLDriverLocal.scala:145)
+	at com.databricks.backend.daemon.driver.DriverLocal.$anonfun$execute$12(DriverLocal.scala:631)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.backend.daemon.driver.DriverLocal.withAttributionContext(DriverLocal.scala:59)
+	at com.databricks.logging.UsageLogging.withAttributionTags(UsageLogging.scala:240)
+	at com.databricks.logging.UsageLogging.withAttributionTags$(UsageLogging.scala:225)
+	at com.databricks.backend.daemon.driver.DriverLocal.withAttributionTags(DriverLocal.scala:59)
+	at com.databricks.backend.daemon.driver.DriverLocal.execute(DriverLocal.scala:608)
+	at com.databricks.backend.daemon.driver.DriverWrapper.$anonfun$tryExecutingCommand$1(DriverWrapper.scala:615)
+	at scala.util.Try$.apply(Try.scala:213)
+	at com.databricks.backend.daemon.driver.DriverWrapper.tryExecutingCommand(DriverWrapper.scala:607)
+	at com.databricks.backend.daemon.driver.DriverWrapper.executeCommandAndGetError(DriverWrapper.scala:526)
+	at com.databricks.backend.daemon.driver.DriverWrapper.executeCommand(DriverWrapper.scala:561)
+	at com.databricks.backend.daemon.driver.DriverWrapper.runInnerLoop(DriverWrapper.scala:431)
+	at com.databricks.backend.daemon.driver.DriverWrapper.runInner(DriverWrapper.scala:374)
+	at com.databricks.backend.daemon.driver.DriverWrapper.run(DriverWrapper.scala:225)
+	at java.lang.Thread.run(Thread.java:748)
+22/09/27 15:08:55 INFO ProgressReporter$: Removed result fetcher for 1386166807757509980_8995903683473764313_57628ba5e48745509fb55f31d0b2827f
+22/09/27 15:09:00 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_4936837606122376175_d35081eb67a04aa182caddb124ab1a03
+22/09/27 15:09:00 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_4936837606122376175_d35081eb67a04aa182caddb124ab1a03
+22/09/27 15:10:15 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_7345001767064135183_3607a8c3228d4d73974f3966d1c7175a
+22/09/27 15:10:16 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_7345001767064135183_3607a8c3228d4d73974f3966d1c7175a
+22/09/27 15:10:22 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6911176467105770770_55b70c7b45294327927ccf81250dc9c2
+22/09/27 15:10:22 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6911176467105770770_55b70c7b45294327927ccf81250dc9c2
+22/09/27 15:10:24 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_6648442246226088987_4bd2fe4c27de468094b001eb66bddb82
+22/09/27 15:10:24 INFO ProgressReporter$: Removed result fetcher for 1619342073169445481_6648442246226088987_4bd2fe4c27de468094b001eb66bddb82
+22/09/27 15:11:03 INFO ProgressReporter$: Added result fetcher for 1619342073169445481_8174124204204965798_b5420cad8e3747959639c3bdb58e5b09

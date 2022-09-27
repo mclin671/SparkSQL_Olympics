@@ -1,0 +1,796 @@
+22/09/27 15:00:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e00e","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e00e","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290821860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:00:27 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHJlbW90ZSBhZGQgb3JpZ2luIGh0dHBzOi8vZ2l0aHViLmNvbS9tY2xpbjY3MS9TcGFya1NRTF9PbHltcGljcy5naXQ=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8087567138506974152_4504cfc2546047b89564c98a8cda32e8)
+22/09/27 15:00:27 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHJlbW90ZSBhZGQgb3JpZ2luIGh0dHBzOi8vZ2l0aHViLmNvbS9tY2xpbjY3MS9TcGFya1NRTF9PbHltcGljcy5naXQ=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8087567138506974152_4504cfc2546047b89564c98a8cda32e8 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:00:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e180","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e180","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290851859,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:00:51 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggLXUgb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_5604850948559491991_7d6ce5b576904ba783b70f17dd747815)
+22/09/27 15:00:51 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggLXUgb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_5604850948559491991_7d6ce5b576904ba783b70f17dd747815 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:01:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e2f1","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e2f1","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290881859,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:01:23 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGJyYW5jaCAtTSBtYWluCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_5442921878335392808_a60c18e24cc2458fbed98f16e99bf5ac)
+22/09/27 15:01:23 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGJyYW5jaCAtTSBtYWluCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_5442921878335392808_a60c18e24cc2458fbed98f16e99bf5ac Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:01:35 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHJlbW90ZSBhZGQgb3JpZ2luIGh0dHBzOi8vZ2l0aHViLmNvbS9tY2xpbjY3MS9TcGFya1NRTF9PbHltcGljcy5naXQKZ2l0IGJyYW5jaCAtTSBtYWluCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_5228544056185419353_9a1a6ab618eb4db1aa0c49330317815d)
+22/09/27 15:01:35 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHJlbW90ZSBhZGQgb3JpZ2luIGh0dHBzOi8vZ2l0aHViLmNvbS9tY2xpbjY3MS9TcGFya1NRTF9PbHltcGljcy5naXQKZ2l0IGJyYW5jaCAtTSBtYWluCmdpdCBwdXNoIC11IG9yaWdpbiBtYWlu")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_5228544056185419353_9a1a6ab618eb4db1aa0c49330317815d Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:01:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e466","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e466","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290911859,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:02:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e5d4","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e5d4","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290941860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:02:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e743","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e743","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664290971859,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:03:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6e8b1","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6e8b1","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291001859,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:03:47 WARN ThrottledLogger$: Failed to load user identity when calling dbfs, missing userId,orgId,user,principalIdpId,principalIdpObjectId.
+java.lang.Exception: Get stack trace for missing UserIdentity
+	at com.databricks.backend.daemon.data.client.DbfsClient.$anonfun$doSend$3(DbfsClient.scala:159)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionContext(DbfsClient.scala:28)
+	at com.databricks.logging.UsageLogging.withAttributionTags(UsageLogging.scala:240)
+	at com.databricks.logging.UsageLogging.withAttributionTags$(UsageLogging.scala:225)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionTags(DbfsClient.scala:28)
+	at com.databricks.backend.daemon.data.client.DbfsClient.doSend(DbfsClient.scala:152)
+	at com.databricks.backend.daemon.data.client.DbfsClient.send0(DbfsClient.scala:103)
+	at com.databricks.backend.daemon.data.client.DbfsClient.sendIdempotent(DbfsClient.scala:68)
+	at com.databricks.backend.daemon.data.client.DatabricksFileSystemV1.getFileStatus(DatabricksFileSystemV1.scala:272)
+	at com.databricks.backend.daemon.data.client.DatabricksFileSystem.getFileStatus(DatabricksFileSystem.scala:215)
+	at com.databricks.backend.daemon.driver.DriverCorral.$anonfun$new$1(DriverCorral.scala:138)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.logging.UsageLogging.$anonfun$recordOperation$1(UsageLogging.scala:330)
+	at com.databricks.logging.UsageLogging.executeThunkAndCaptureResultTags$1(UsageLogging.scala:424)
+	at com.databricks.logging.UsageLogging.$anonfun$recordOperationWithResultTags$4(UsageLogging.scala:444)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionContext(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.withAttributionTags(UsageLogging.scala:240)
+	at com.databricks.logging.UsageLogging.withAttributionTags$(UsageLogging.scala:225)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionTags(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.recordOperationWithResultTags(UsageLogging.scala:419)
+	at com.databricks.logging.UsageLogging.recordOperationWithResultTags$(UsageLogging.scala:339)
+	at com.databricks.threading.NamedTimer$$anon$1.recordOperationWithResultTags(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.recordOperation(UsageLogging.scala:330)
+	at com.databricks.logging.UsageLogging.recordOperation$(UsageLogging.scala:302)
+	at com.databricks.threading.NamedTimer$$anon$1.recordOperation(NamedTimer.scala:95)
+	at com.databricks.threading.NamedTimer$$anon$1.$anonfun$run$2(NamedTimer.scala:104)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionContext(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.disableTracing(UsageLogging.scala:938)
+	at com.databricks.logging.UsageLogging.disableTracing$(UsageLogging.scala:937)
+	at com.databricks.threading.NamedTimer$$anon$1.disableTracing(NamedTimer.scala:95)
+	at com.databricks.threading.NamedTimer$$anon$1.$anonfun$run$1(NamedTimer.scala:103)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.util.UntrustedUtils$.tryLog(UntrustedUtils.scala:109)
+	at com.databricks.threading.NamedTimer$$anon$1.run(NamedTimer.scala:102)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+22/09/27 15:03:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6ea24","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6ea24","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291031860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:04:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6eb92","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6eb92","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291061860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:04:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6ed01","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6ed01","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291091860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:05:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6ee6f","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6ee6f","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291121860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:05:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6efd9","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6efd9","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291151860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:06:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f142","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f142","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291181860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:06:34 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGNvbW1pdCAtbSAnUHVzaCBOb3RlYm9vayc=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_6352152856940599221_f5ebbec4912e4c6ea8185c2d4dea196e)
+22/09/27 15:06:34 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGNvbW1pdCAtbSAnUHVzaCBOb3RlYm9vayc=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_6352152856940599221_f5ebbec4912e4c6ea8185c2d4dea196e Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:06:47 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8210957363587951465_e6a8d0c25a964c79993d94f13e385ee2)
+22/09/27 15:06:47 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8210957363587951465_e6a8d0c25a964c79993d94f13e385ee2 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:06:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f2b7","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f2b7","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291211860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:07:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f425","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f425","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291241860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:07:40 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCA8L1VzZXJzL2xpbm1pY2hlbGxlMkBnbWFpbC5jb20vRmluYWwgUHJvamVjdD4KZ2l0IGNvbW1pdCAtbSAnUHVzaCBOb3RlYm9vayc=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8650763222142572502_d59bd7afc1b5499991c8953c052d195b)
+22/09/27 15:07:40 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCA8L1VzZXJzL2xpbm1pY2hlbGxlMkBnbWFpbC5jb20vRmluYWwgUHJvamVjdD4KZ2l0IGNvbW1pdCAtbSAnUHVzaCBOb3RlYm9vayc=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8650763222142572502_d59bd7afc1b5499991c8953c052d195b Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:07:50 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8925891599477507465_6c58e024b0ba46c6b634588498fe2a7f)
+22/09/27 15:07:50 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8925891599477507465_6c58e024b0ba46c6b634588498fe2a7f Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:07:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f599","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f599","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291271860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:07:59 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCAvVXNlcnMvbGlubWljaGVsbGUyQGdtYWlsLmNvbS9GaW5hbCBQcm9qZWN0CgpnaXQgY29tbWl0IC1tICdQdXNoIE5vdGVib29rJw==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_5099899733560531369_a0c04f37288b4e86bb196e9562720af3)
+22/09/27 15:07:59 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCAvVXNlcnMvbGlubWljaGVsbGUyQGdtYWlsLmNvbS9GaW5hbCBQcm9qZWN0CgpnaXQgY29tbWl0IC1tICdQdXNoIE5vdGVib29rJw==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_5099899733560531369_a0c04f37288b4e86bb196e9562720af3 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:08:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f70a","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f70a","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291301860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:08:47 WARN ThrottledLogger$: Failed to load user identity when calling dbfs, missing userId,orgId,user,principalIdpId,principalIdpObjectId.
+java.lang.Exception: Get stack trace for missing UserIdentity
+	at com.databricks.backend.daemon.data.client.DbfsClient.$anonfun$doSend$3(DbfsClient.scala:159)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionContext(DbfsClient.scala:28)
+	at com.databricks.logging.UsageLogging.withAttributionTags(UsageLogging.scala:240)
+	at com.databricks.logging.UsageLogging.withAttributionTags$(UsageLogging.scala:225)
+	at com.databricks.backend.daemon.data.client.DbfsClient.withAttributionTags(DbfsClient.scala:28)
+	at com.databricks.backend.daemon.data.client.DbfsClient.doSend(DbfsClient.scala:152)
+	at com.databricks.backend.daemon.data.client.DbfsClient.send0(DbfsClient.scala:103)
+	at com.databricks.backend.daemon.data.client.DbfsClient.sendIdempotent(DbfsClient.scala:68)
+	at com.databricks.backend.daemon.data.client.DatabricksFileSystemV1.getFileStatus(DatabricksFileSystemV1.scala:272)
+	at com.databricks.backend.daemon.data.client.DatabricksFileSystem.getFileStatus(DatabricksFileSystem.scala:215)
+	at com.databricks.backend.daemon.driver.DriverCorral.$anonfun$new$1(DriverCorral.scala:138)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.logging.UsageLogging.$anonfun$recordOperation$1(UsageLogging.scala:330)
+	at com.databricks.logging.UsageLogging.executeThunkAndCaptureResultTags$1(UsageLogging.scala:424)
+	at com.databricks.logging.UsageLogging.$anonfun$recordOperationWithResultTags$4(UsageLogging.scala:444)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionContext(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.withAttributionTags(UsageLogging.scala:240)
+	at com.databricks.logging.UsageLogging.withAttributionTags$(UsageLogging.scala:225)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionTags(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.recordOperationWithResultTags(UsageLogging.scala:419)
+	at com.databricks.logging.UsageLogging.recordOperationWithResultTags$(UsageLogging.scala:339)
+	at com.databricks.threading.NamedTimer$$anon$1.recordOperationWithResultTags(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.recordOperation(UsageLogging.scala:330)
+	at com.databricks.logging.UsageLogging.recordOperation$(UsageLogging.scala:302)
+	at com.databricks.threading.NamedTimer$$anon$1.recordOperation(NamedTimer.scala:95)
+	at com.databricks.threading.NamedTimer$$anon$1.$anonfun$run$2(NamedTimer.scala:104)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.logging.Log4jUsageLoggingShim$.$anonfun$withAttributionContext$1(Log4jUsageLoggingShim.scala:33)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+	at com.databricks.logging.AttributionContext$.withValue(AttributionContext.scala:94)
+	at com.databricks.logging.Log4jUsageLoggingShim$.withAttributionContext(Log4jUsageLoggingShim.scala:31)
+	at com.databricks.logging.UsageLogging.withAttributionContext(UsageLogging.scala:205)
+	at com.databricks.logging.UsageLogging.withAttributionContext$(UsageLogging.scala:204)
+	at com.databricks.threading.NamedTimer$$anon$1.withAttributionContext(NamedTimer.scala:95)
+	at com.databricks.logging.UsageLogging.disableTracing(UsageLogging.scala:938)
+	at com.databricks.logging.UsageLogging.disableTracing$(UsageLogging.scala:937)
+	at com.databricks.threading.NamedTimer$$anon$1.disableTracing(NamedTimer.scala:95)
+	at com.databricks.threading.NamedTimer$$anon$1.$anonfun$run$1(NamedTimer.scala:103)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.util.UntrustedUtils$.tryLog(UntrustedUtils.scala:109)
+	at com.databricks.threading.NamedTimer$$anon$1.run(NamedTimer.scala:102)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+22/09/27 15:08:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f87e","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f87e","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291331860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:08:55 INFO SQLDriverWrapper: Repl ReplId-133ca-75e0f-d2d55-c executing (sql,os.getcwd(),1386166807757509980_8995903683473764313_57628ba5e48745509fb55f31d0b2827f)
+22/09/27 15:08:55 INFO SQLDriverLocal: Executing cmd os.getcwd() (type:sql jobGroup:1386166807757509980_8995903683473764313_57628ba5e48745509fb55f31d0b2827f Map() os.getcwd() 1386166807757509980)
+22/09/27 15:09:00 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("b3MuZ2V0Y3dkKCk=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_4936837606122376175_d35081eb67a04aa182caddb124ab1a03)
+22/09/27 15:09:00 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("b3MuZ2V0Y3dkKCk=")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_4936837606122376175_d35081eb67a04aa182caddb124ab1a03 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:09:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6f9f3","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6f9f3","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291361860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:09:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6fb61","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6fb61","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291391860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:10:15 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggaHR0cHM6Ly9naXRodWIuY29tL21jbGluNjcxL1NwYXJrU1FMX09seW1waWNzLmdpdA==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_7345001767064135183_3607a8c3228d4d73974f3966d1c7175a)
+22/09/27 15:10:15 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggaHR0cHM6Ly9naXRodWIuY29tL21jbGluNjcxL1NwYXJrU1FMX09seW1waWNzLmdpdA==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_7345001767064135183_3607a8c3228d4d73974f3966d1c7175a Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:10:21 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6fcd2","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6fcd2","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291421860,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:10:22 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCA8L1VzZXJzL2xpbm1pY2hlbGxlMkBnbWFpbC5jb20vRmluYWwgUHJvamVjdD4KCmdpdCBjb21taXQgLW0gJ1B1c2ggTm90ZWJvb2sn")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_6911176467105770770_55b70c7b45294327927ccf81250dc9c2)
+22/09/27 15:10:22 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGFkZCA8L1VzZXJzL2xpbm1pY2hlbGxlMkBnbWFpbC5jb20vRmluYWwgUHJvamVjdD4KCmdpdCBjb21taXQgLW0gJ1B1c2ggTm90ZWJvb2sn")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_6911176467105770770_55b70c7b45294327927ccf81250dc9c2 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:10:24 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggaHR0cHM6Ly9naXRodWIuY29tL21jbGluNjcxL1NwYXJrU1FMX09seW1waWNzLmdpdA==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_6648442246226088987_4bd2fe4c27de468094b001eb66bddb82)
+22/09/27 15:10:24 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IHB1c2ggaHR0cHM6Ly9naXRodWIuY29tL21jbGluNjcxL1NwYXJrU1FMX09seW1waWNzLmdpdA==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_6648442246226088987_4bd2fe4c27de468094b001eb66bddb82 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
+22/09/27 15:10:51 INFO DriverDaemon$: {"metric":"serviceUptime","tags":{"driverPublicDns":"ec2-52-43-240-122.us-west-2.compute.amazonaws.com","opType":"TimerTask","clusterScalingType":"fixed_size","attribute_tag_dust_execution_env":"","driverContainerId":"baa110cf337b4948ba4eb90b05d5b1ec","instanceProfileUsed":"false","clusterState":"Pending","ignoreTerminationEventInAlerting":"false","clusterLogDeliveryEnabled":"false","sparkEnvVarContainsSingleQuotes":"false","driverNodeType":"dev-tier-node","databricksCommit":"66ea713f3c10cffa379e68292fea4f0235c7026f","sparkMasterUrlType":"None","userProvidedRemoteVolumeCount":"0","clusterUnityCatalogMode":"CUSTOM","hostName":"0927-121431-cerdegsr-10-172-160-150","clusterEbsVolumeSize":"0","enableJdbcAutoStart":"true","driverInstanceId":"i-0c628bb4ea7cb6690","orgId":"3204399141458764","sparkVersion":"10.4.x-cpu-ml-scala2.12","clusterOwnerOrgId":"3204399141458764","enableGlueCatalogCredentialPassthrough":"false","cloudProvider":"AWS","clusterName":"My Cluster ","clusterPythonVersion":"3","clusterAllTags":"[{\"key\":\"Name\",\"value\":\"ce-worker\"}]","clusterResourceClass":"default","enableSqlAclsOnly":"false","containerType":"LXC","attribute_tag_dust_suite":"","userId":"1877361114917999","driverContainerPrivateIp":"10.172.160.150","enableElasticDisk":"false","clusterSizeType":"VM_CONTAINER","dataPlaneRegion":"us-west-2","instanceWorkerEnvNetworkType":"default","sparkEnvVarContainsEscape":"false","userProvidedSparkVersion":"10.4.x-cpu-ml-scala2.12","clusterEbsVolumeType":"GENERAL_PURPOSE_SSD","instanceWorkerEnvId":"default-worker-env","isServicePrincipalCluster":"false","instanceBootstrapType":"ssh","awsWorkspaceIMDSV2EnablementStatus":"false","containerZoneId":"us-west-2a","clusterPinned":"false","clusterNodeType":"dev-tier-node","clusterNumCustomTags":"0","clusterSku":"STANDARD_SKU","attribute_tag_dust_maintainer":"","ngrokNpipEnabled":"false","clusterFirstOnDemand":"0","enableCredentialPassthrough":"false","clusterLogDestination":"","isSingleUserCluster":"false","driverInstancePrivateIp":"10.172.189.94","sparkEnvVarContainsDollarSign":"false","isIMv2Enabled":"false","clusterTargetWorkers":"0","numPerGlobalInitScriptsV2":"0","numPerClusterInitScriptsV2":"0","enableJobsAutostart":"true","clusterStateMessage":"Starting Spark","apacheCommit":"990bee9c58ea9abd8c4f04f20c78c6d5b720406a","effectiveSparkVersion":"10.4.x-cpu-ml-scala2.12","projectName":"driver","region":"us-west-2","userProvidedRemoteVolumeSizeGb":"0","attribute_tag_service":"","sparkEnvVarContainsDoubleQuotes":"false","clusterGeneration":"0","autoTerminationMinutes":"120","clusterId":"0927-121431-cerdegsr","clusterAvailability":"ON_DEMAND","parentOpId":"Thread-12","hailEnabled":"false","workerEnvironmentId":"default-worker-env","sparkEnvVarContainsNewline":"false","tier":"tier-0","enableDfAcls":"false","rootOpId":"TimerTask-7c5f046524b6fe47","clusterNoDriverDaemon":"false","clusterOwnerUserId":"1877361114917999","privateLinkEnabled":"false","clusterEbsVolumeCount":"0","clusterCreator":"Webapp","enableLocalDiskEncryption":"false","clusterSpotBidPricePercent":"100","buildHash":"586bdb1c10e00d24e8b6ebfc3db943f7e51e85c1","clusterNumSshKeys":"0","opId":"TimerTask-7c5f046524b6fe47","branchName":"manager_2022-09-21_14.42.06Z_branch-3.81_447e0798_1626881836","userProvidedRemoteVolumeType":"ebs_volume_type: GENERAL_PURPOSE_SSD\n","sparkEnvVarContainsBacktick":"false","opTarget":"UptimeLogger:driver","clusterMetastoreAccessType":"RDS_DIRECT","attribute_tag_budget":"","clusterWorkers":"0"},"timestamp":1664291451861,"v":3,"quantity":30000.0,"blob":null}
+22/09/27 15:11:03 INFO PythonDriverWrapper: Repl ReplId-16790-f0931-1c026-9 executing (python,
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGluaXQKZ2l0IGFkZCAuIApnaXQgY29tbWl0IC1tICdJbml0aWFsIENvbW1pdCcKZ2l0IHB1c2ggLXUgb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+      ,1619342073169445481_8174124204204965798_b5420cad8e3747959639c3bdb58e5b09)
+22/09/27 15:11:03 INFO JupyterDriverLocal: Executing cmd 
+try:
+    def ____databricks_percent_sh():
+        import base64, sys, subprocess
+        cmd = base64.standard_b64decode("Z2l0IGluaXQKZ2l0IGFkZCAuIApnaXQgY29tbWl0IC1tICdJbml0aWFsIENvbW1pdCcKZ2l0IHB1c2ggLXUgb3JpZ2luIG1hc3Rlcg==")
+        p = subprocess.Popen(
+            cmd,
+            shell = True,
+            executable = '/bin/bash',
+            stderr = subprocess.STDOUT,
+            stdout = subprocess.PIPE,
+            universal_newlines = True)
+        for line in iter(p.stdout.readline, ''):
+            sys.stdout.write(line)
+            sys.stdout.flush()
+        returncode = p.wait()
+        if returncode != 0 and False:
+            raise subprocess.CalledProcessError(returncode, cmd)
+    ____databricks_percent_sh()
+finally:
+    del ____databricks_percent_sh
+       (type:python jobGroup:1619342073169445481_8174124204204965798_b5420cad8e3747959639c3bdb58e5b09 Map() 
+try:
+    def ____databricks_percent_sh():
+    ... 1619342073169445481)
