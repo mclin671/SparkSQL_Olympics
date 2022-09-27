@@ -529,3 +529,9 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[main 0d0f936] Initial Commit
+ 6 files changed, 108 insertions(+)
+ create mode 100644 ganglia/snapshot-2022-09-27T15:45:02.179Z.png
+error: src refspec master does not match any
+error: failed to push some refs to 'https://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@github.com/mclin671/SparkSQL_Olympics.git'
+2022-09-27T15:46:25.335+0000: [GC (Allocation Failure) [PSYoungGen: 2038784K->11170K(2254336K)] 2266450K->238837K(7206400K), 0.0237200 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
