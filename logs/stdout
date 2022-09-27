@@ -504,3 +504,28 @@ Cloning into 'SparkSQL_Olympics'...
 /bin/bash: line 1: Username:: command not found
 /bin/bash: line 2: Password:: command not found
 Reinitialized existing Git repository in /databricks/driver/.git/
+warning: adding embedded git repository: SparkSQL_Olympics
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> SparkSQL_Olympics
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached SparkSQL_Olympics
+hint: 
+hint: See "git help submodule" for more information.
+[main 2195ec5] Initial Commit
+ 7 files changed, 327 insertions(+)
+ create mode 160000 SparkSQL_Olympics
+To https://github.com/mclin671/SparkSQL_Olympics.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://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@github.com/mclin671/SparkSQL_Olympics.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
