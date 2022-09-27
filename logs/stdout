@@ -312,3 +312,19 @@ remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
 Reinitialized existing Git repository in /databricks/driver/.git/
+[master 8689d70] Initial Commit
+ 7 files changed, 149 insertions(+)
+ create mode 100644 ganglia/snapshot-2022-09-27T15:15:01.994Z.png
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
+2022-09-27T15:17:07.912+0000: [GC (Allocation Failure) [PSYoungGen: 2018816K->7116K(2245632K)] 2254462K->242771K(7197696K), 0.0195381 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+Reinitialized existing Git repository in /databricks/driver/.git/
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
