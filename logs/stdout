@@ -306,3 +306,9 @@ Reinitialized existing Git repository in /databricks/driver/.git/
  5 files changed, 60 insertions(+)
 fatal: unable to access 'https://github.com/{mclin671}/SparkSQL_Olympics.git/': The requested URL returned error: 400
 Reinitialized existing Git repository in /databricks/driver/.git/
+[master f9eabab] Initial Commit
+ 5 files changed, 122 insertions(+)
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/mclin671/SparkSQL_Olympics.git/'
+Reinitialized existing Git repository in /databricks/driver/.git/
